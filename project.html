@@ -7,6 +7,8 @@
   <title>myntra.in</title>
 
   <style>
+
+  
     .box {display: flex;column-gap: 200px;margin-left: px;
 
     }
@@ -111,7 +113,26 @@
 
     .size1 {
       font-size: 12px;
+
     }
+
+
+
+    
+              @media(width<768px) 
+            {.box {
+                width: 90%;
+                background-color: rgb(207, 210, 41);
+                
+            }}
+
+            
+            @media(width:>768px;) and (width<1023px){
+            .box{
+                width: 90%;
+                background-color:green ;
+            }
+        }
   </style>
 
 
@@ -541,7 +562,7 @@
       <div class="card">
         <img src="images/workwear_1.jpg" class="card-img-top" alt="...">
         <div class="card-body">
-          <h5 class="box15" class="card-title">Work Wear<p class="box16"><b>15-20% OFF</b></p></h5>
+          <h5 class="box15" class="card-title">Work Wear<p class="box16"><b>15-20% OFF</b></p><p><b>Shop Now</b></p></h5>
           <p class="card-text"></p>
           <p class="card-text"><small class="text-body-secondary"></small></p>
         </div>
@@ -549,7 +570,7 @@
       <div class="card">
         <img src="images/casual_styles.jpg" class="card-img-top" alt="...">
         <div class="card-body">
-          <h5 class="card-title">Casual Styles<p class="box16"><b>5-10% OFF</b></p><p><b>Shop Now</b></p></h5>
+          <h5 class="box15" class="card-title">Casual Styles<p class="box16"><b>5-10% OFF</b></p><p><b>Shop Now</b></p></h5>
           <p class="card-text"></p>
           <p class="card-text"><small class="text-body-secondary"></small></p>
         </div>
